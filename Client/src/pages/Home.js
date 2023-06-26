@@ -225,11 +225,41 @@ const Home = () => {
           <div className="row">
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img src="images/famous-1.webp" alt="famous" />
+                <img src="images/famous-1.webp" className="img-fluid" alt="famous" />
                 <div className="famous-content position-absolute">
                 <h5>Big Screen</h5>
                 <h6>Smart Watch Series 7</h6>
                 <p>From $399 or $16.16/mo. for 24 mo.*</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-2.webp" className="img-fluid" alt="famous" />
+                <div className="famous-content position-absolute">
+                <h5 className="text-dark">Studio Display</h5>
+                <h6 className="text-dark">600 nits of brightness.</h6>
+                <p className="text-dark">27-inch 5k Retina display</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-3.webp" className="img-fluid" alt="famous" />
+                <div className="famous-content position-absolute">
+                <h5 className="text-dark">Smart Phone</h5>
+                <h6 className="text-dark">Smartphone 13 pro.</h6>
+                <p className="text-dark">Now in Green.From $999.00 or $41.62/mo. EMI for 24 month</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-4.webp" className="img-fluid" alt="famous" />
+                <div className="famous-content position-absolute">
+                <h5 className="text-dark">Home Speaker</h5>
+                <h6 className="text-dark">Room Filling Sound</h6>
+                <p className="text-dark">From $699.00 Offer Price </p>
                 </div>
               </div>
             </div>
@@ -244,6 +274,7 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
+            <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
             <SpecialProduct />
@@ -317,6 +348,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };
